@@ -41,8 +41,8 @@ h2 {
 
 #grid-floats {
   display: grid;
-  grid-template-columns: repeat(12, 1fr); /* Creates a 12 column layout */
-  grid-gap: 16px; /* This sets the gap between the grid items */
+  grid-template-columns: repeat(12, 1fr); 
+  grid-gap: 16px; 
   padding: 0;
   list-style: none;
   margin-bottom: 84px;
@@ -76,7 +76,7 @@ h2 {
   }
 
   #grid-floats .grid-item:first-child {
-      grid-column: span 6; /* Makes the first item span 6 columns */
+      grid-column: span 6; 
   }
 
   #grid-floats .grid-item:nth-child(2) {
