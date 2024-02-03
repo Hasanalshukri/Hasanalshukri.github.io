@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personle website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="images/logo.PNG" class="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">PROTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+
+                
+            </nav>
+            <div class="detel">
+                <h1>I'm Hasan <span>Alshukri</span></h1>
+                <p>This is my protfolio website to showes all
+                    <br>
+                    details and work exiprins  
+                </p>
+            <a href="#">DOWNLOAD CV</a>
+            </div>
+
+            <section id="about">
+                <div class="column">
+                    <img src="images/images.jpeg" alt="Team Photo">
+                </div>
+                <div class="column">
+                    <h2>Our Story</h2>
+                    <p>The customer is very important, the customer will be followed by the customer. Nothing is easy..</p>
+                    <br>
+                    <h2>Our Mission</h2>
+                    <p>Our mission is to successfully complete what we set out to do... There is nothing holding me back in my work but I just need time .</p>
+                </div>
+            </section>
+
+
+            <section id="portfolio">
+                <!-- Portfolio Card 1 -->
+                <div class="portfolio-card">
+                    <img src="images/fo.png" alt="freecodecamp">
+                    <h3 class="prtitle">freecodecamp</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+                    <button class="prbutton">View Details</button>
+                </div>
+        
+                <!-- Portfolio Card 2 -->
+                <div class="portfolio-card">
+                    <img src="images/html.jpeg" alt="HTML">
+                    <h3 class="prtitle">HTML</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+                    <button class="prbutton">View Details</button>
+                </div>
+        
+                <!-- Portfolio Card 3 -->
+                <div class="portfolio-card">
+                    <img src="images/CSS.jpeg" alt="CSS">
+                    <h3 class="prtitle">CSS</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+                    <button class="prbutton">View Details</button>
+                </div>
+        
+                <!-- Portfolio Card 4 -->
+                <div class="portfolio-card">
+                    <img src="images/js.jpeg" alt="Project 4">
+                    <h3 class="prtitle">Javascript</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+                    <button class="prbutton">View Details</button>
+                </div>
+            </section>
+        
+
+            <div class="images">
+                <img src="images/shape.PNG" class="shape">
+                <img src="images/hasan.PNG" class="haasn">
+            </div>
+            <div class="container">
+                <div class="contact-form" id="contact">
+                    <h2>Contact Us</h2>
+                    <form id="contactForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                
+                        <button type="button" onclick="submitForm()">Submit</button>
+                    </form>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                     </ul>  
+                </div>
+            </div>
+        <script src="Script.js"></script>
+    </body>
+    </html>
