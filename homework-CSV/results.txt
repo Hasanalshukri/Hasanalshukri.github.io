@@ -1,6 +1,0 @@
-Total Salary: 700044052
-Average Salary: 70004.4052
-Minimum Salary with the corresponding profession: 40001 (firefighter)
-Maximum Salary with the corresponding profession: 99998 (doctor)
-Minimum Age: 20
-Maximum Age: 70
